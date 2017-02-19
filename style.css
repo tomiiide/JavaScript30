@@ -1,0 +1,32 @@
+body{
+  font-family: 'Helvetica';
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  font-size: 18px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width : 50%;
+  position: absolute;
+}
+
+.links a {
+  padding : 5px;
+}
+
+.details{
+  display:block;
+  position : fixed;
+  left : 0;
+  text-align: center;
+  width: 50%;
+  
+}
